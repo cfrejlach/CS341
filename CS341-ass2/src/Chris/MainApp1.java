@@ -73,7 +73,7 @@ public class MainApp1{
 		frame.getContentPane().add(textField);
 		textField.setColumns(10);
 		
-		btnNewButton = new JButton("Every combination of these letters ");
+		btnNewButton = new JButton("Every combination of provieded letters ");
 		btnNewButton.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent e) {
